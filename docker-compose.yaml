@@ -1,0 +1,10 @@
+version: '3.8'
+services:
+  teal-notes:
+    build: ./
+    container_name: teal-notes-container
+    volumes:
+      - ./:/app
+      - /app/node_modules
+    command: tail -F README.md
+
