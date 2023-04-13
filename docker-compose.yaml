@@ -3,6 +3,8 @@ services:
   teal-notes:
     build: ./
     container_name: teal-notes-container
+    ports:
+      - "3000:3000"
     volumes:
       - ./:/app
       - /app/node_modules
