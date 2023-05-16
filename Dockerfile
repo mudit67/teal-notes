@@ -12,4 +12,4 @@ RUN npm install
 
 EXPOSE 3000
 
-CMD ["tail" ,"-F", "anything"]
+CMD ["tail" ,"-F", "README.md"]

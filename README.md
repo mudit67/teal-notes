@@ -19,18 +19,4 @@ These blogs can range from deep philosical thoughts to just fictional comedic st
 + Search by title  
 + Advance Search (search through tags, catergoies, discriptive tags etc.)
 + nested blogs (so the veiwer can go down,up ,left and right in the blogs hierarchy for some blogs)
-+ In desktop veiw side Navbar would have nested breadcrubs for navigation for nest blogs
-
-### Dev Notes
-* Use Docker 
-* The Data structure for each blog post :-
-	- Unique ID 
-	-  Title
-	 - Content 
-	 - Catergory
-	 - Tags
-	 - Descriptive Tags
-	 - Published date
-	- Comments
-	- TL;DR
-	
++ In desktop veiw side Navbar would have nested breadcrubs for navigation for nested blogs	
