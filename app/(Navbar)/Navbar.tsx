@@ -1,6 +1,7 @@
+"use client";
+
 import Image from "next/image";
-import styles from "./../styles/Navbar.module.css";
-import logoSrc from "./../logo.jpg";
+import styles from "./Navbar.module.css";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 export default function Navbar() {
@@ -70,7 +71,7 @@ export default function Navbar() {
       <nav className={`${styles.navBar}`}>
         <div className={styles.banner}>
           <Image
-            src={logoSrc}
+            src="/logo.jpg"
             width={1024}
             height={1024}
             alt="a teal paper with black dashes"

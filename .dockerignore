@@ -4,3 +4,6 @@ node_modules
 npm-debug.log
 .next
 .git
+
+# testing files
+**/bin
