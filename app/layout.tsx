@@ -1,5 +1,6 @@
 import "./globals.css";
 import Navbar from "./(Navbar)/Navbar";
+import Sidebar from "./(Navbar)/Sidebar";
 export default function RootLayout({
   children,
 }: {
@@ -8,8 +9,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <Navbar />
-        <div className="main">{children}</div>
+        <Sidebar />
+        <div className="main">
+          <Navbar />
+          {children}
+        </div>
       </body>
     </html>
   );

@@ -25,10 +25,10 @@ export default function Navbar() {
     // document.querySelector(`.${styles.navBar}`).classList.toggle(styles.open);
     // document.querySelector(".main").classList.toggle("open");
 
-    if (!sideBar) {
-    } else {
-      setSideBar(false);
-    }
+    // if (!sideBar) {
+    // } else {
+    //   setSideBar(false);
+    // }
   };
   const handleSidebarClick = (e) => {
     const sideBarEl = document.querySelector(`.${styles.sideBar}`);
@@ -61,13 +61,6 @@ export default function Navbar() {
   console.log(`Side bar: ${sideBar}`);
   return (
     <>
-      <div className={`${styles.sideBar}`}>
-        <Link href={"/"}>Home</Link>
-        <span>Search</span>
-        <Link href={`/about`}>About Me</Link>
-        <Link href={`/contact`}>Contact</Link>
-        <span>Categories</span>
-      </div>
       <nav className={`${styles.navBar}`}>
         <div className={styles.banner}>
           <Image

@@ -12,7 +12,7 @@
     font-size: 2rem;
     width: 100%;
     justify-content: center;
-    transition: margin-left 0.5s ease;
+    transition: all 0.5s cubic-bezier(0.24, 0.49, 0.34, 0.98) !important;
 }
 
 .brannerImg {
@@ -22,10 +22,11 @@
 .burgerIcon {
     display: inline-block;
     position: absolute;
+    left:0;
     z-index: 3;
     cursor: pointer;
     /* float: left; */
-    padding: 1rem;
+    margin: 1rem;
     /* justify-content: left; */
 }
 
@@ -93,7 +94,10 @@
 }
 
 .open .banner {
-    margin-left: 250px;
+    /* margin-left: auto;
+    margin-right: 0;
+    width: calc(100% - 250px); */
+    /* transform: scaleX(-250px)); */
 }
 
 .sideBar>* {
