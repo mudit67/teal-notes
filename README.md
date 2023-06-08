@@ -20,3 +20,13 @@ These blogs can range from deep philosical thoughts to just fictional comedic st
 + Advance Search (search through tags, catergoies, discriptive tags etc.)
 + nested blogs (so the veiwer can go down,up ,left and right in the blogs hierarchy for some blogs)
 + In desktop veiw side Navbar would have nested breadcrubs for navigation for nested blogs	
+
+### Update:- 
+> Dated 8th June, 2023
+
+I will be just focusing on building the foundation of this site. that includes :-
+- Basic structure (only .md level formating that notion allows)
+- Basic styles and animation
+- will be using notion CMS as the database for text, meta data and all.
+- Will use imgur to host images
+- Basic text search the searches titles, tags, etc.

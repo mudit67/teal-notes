@@ -35,3 +35,8 @@ Why not using markdown convertors?
 </summary>
 because of the added complexity of dealing with comments,threads, nested blogs and sequal blogs.
 </details>
+
+make animate thing for the mouse pointer when it comes into the side bar. Inside the sidebar it will have a little translucent circle around it. when it hover over a link the circle would disolve into a border and a background colour of the link
+
+also going to add animate on scroll to /about and /contact route
+maybe even to homepage featured blogs might have the same.
