@@ -40,3 +40,7 @@ make animate thing for the mouse pointer when it comes into the side bar. Inside
 
 also going to add animate on scroll to /about and /contact route
 maybe even to homepage featured blogs might have the same.
+
+Have a metadata.json file that has short descriptions about tags,category, etc. use tooltips to show them.
+
+.mdx to store actual blog content.
